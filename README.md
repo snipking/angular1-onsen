@@ -62,12 +62,7 @@ What you need to run this app:
 
 ## Running the app
 
-After you have installed all dependencies you can now run the app with:
-```bash
-gulp run-dev
-```
-
-It will start a local server using `webpack-dev-server`, and scripts build with webpack will watch, build (in-memory), and reload by it; other resources will watch by gulp. Chrome browser will open with url `http://localhost:8384/index.html`.
+Using NetBeans build-in server to run / debug
 
 ## Developing
 
