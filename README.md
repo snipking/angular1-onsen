@@ -5,9 +5,10 @@
 A seed template for angular1 & onsenui project
 
 This project is a starting point for building Angular 1.x applications with onsenui. Also for further
-1. angular1-onsen
-2. [angular1-onsen-webpack](https://github.com/snipking/angular1-onsen-webpack.git)
-3. [angular1-onsen-typescript-webpack](https://github.com/snipking/angular1-onsen-typescript-webpack.git)
+
+1. angular1-onsen  
+2. [angular1-onsen-webpack](https://github.com/snipking/angular1-onsen-webpack.git)  
+3. [angular1-onsen-typescript-webpack](https://github.com/snipking/angular1-onsen-typescript-webpack.git)  
 
 learning course.
 
