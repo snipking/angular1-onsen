@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval';"/>
+        <title>Project Template</title>
+        <meta name="description" content="">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" >
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="bower_components/onsenui/css/onsenui.css">
+        <link rel="stylesheet" href="bower_components/onsenui/css/onsen-css-components-blue-basic-theme.css">
+        <!-- build:js bower_components/angular/angular.min.js -->
+        <script src="bower_components/angular/angular.js"></script>
+        <!-- endbuild -->
+        <!-- build:js bower_components/angular-route/angular-route.min.js -->
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <!-- endbuild -->
+        <!-- build:js bower_components/onsenui/js/onsenui.min.js -->
+        <script src="bower_components/onsenui/js/onsenui.js"></script>
+        <!-- endbuild -->
+        <!-- build:js scripts/app.min.js -->
+        <script src="scripts/app.js"></script>
+        <!-- endbuild -->
+        <!-- build:js scripts/controllers/page1Controller.min.js -->
+        <script src="scripts/controllers/page1Controller.js"></script>
+        <!-- endbuild -->
+        <!-- build:js scripts/controllers/page2Controller.min.js -->
+        <script src="scripts/controllers/page2Controller.js"></script>
+        <!-- endbuild -->
+        <!-- build:js scripts/directives/hngDirective1.min.js -->
+        <script src="scripts/directives/hngDirective1.js"></script>
+        <!-- endbuild -->
+        <!-- build:js scripts/filters/filter1.min.js -->
+        <script src="scripts/filters/filter1.js"></script>
+        <!-- endbuild -->
+        <!-- build:js scripts/services/service1.min.js -->
+        <script src="scripts/services/service1.js"></script>
+        <!-- endbuild -->
+        <link href="css/app.css" rel="stylesheet" type="text/css"/>
+        <link href="css/page2.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body ng-controller="rootController">
+    <ons-navigator var="globalNavigator">
+        <div>
+            <div ng-view></div>
+        </div>
+    </ons-navigator>
+</body>
+</html>
